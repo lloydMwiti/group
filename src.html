@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="srcbar" onkeyup="srcbox()" type="text" placeholder="search movies...">
+    <ul id="srclist">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+        <li>six</li>
+        <li>seven</li>
+    </ul>
+    <script src="index.js"></script>
+
+    <style>
+        *{
+            outline: none;
+            transition:.4s ease;
+        }
+        body{
+            display: flex;
+            width: 100vw;
+            justify-content: center;
+        }
+        input{
+            border: none;
+            border-radius: 2rem;
+            padding: .7rem 1rem;
+            width: 45vw;
+            max-height: 2.3rem;
+            max-width: 55rem;
+            box-shadow: 0 .1rem .6rem -.2rem blue;
+            font-size:1.1rem;
+            color: #565656;
+        }
+        input:focus{
+            box-shadow:0 0rem .5rem -.2rem rgb(0, 0, 0) ,0 0.1rem .8rem -.2rem rgb(37, 0, 245);
+        }
+    </style>
+</body>
+</html>
