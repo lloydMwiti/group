@@ -14,11 +14,12 @@
         *{
             outline: none;
             transition:.4s ease;
-
+            overflow-x: hidden;
         }
         body{
             display: flex;
             width: 100vw;
+            height: 90vh;
             justify-content: center;
         }
         
@@ -46,7 +47,7 @@
             border-radius: 2rem;
             padding: .7rem 1rem;
             width: 45vw;
-            max-height: 2.1rem;
+            max-height: 1.4rem;
             max-width: 55rem;
             box-shadow: 0 .1rem .6rem -.2rem blue;
             font-size:1.1rem;
@@ -54,6 +55,14 @@
         }
         input:focus{
             box-shadow:0 0rem .5rem -.2rem rgb(0, 0, 0) ,0 0.1rem .8rem -.2rem rgb(37, 0, 245);
+        }
+        @media (orientation: portrait){
+            input{
+                width: 70%;
+            }
+            a{
+                margin-left: .4rem;
+            }
         }
     </style>
 </body>

@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="blur"></div>
 <nav>
     <div class="title">
         popcorn.tv
@@ -18,15 +19,16 @@
     </div>
 </nav>
 
-<form class="form">
+<form class="form" onsubmit="return validatedForm()" name="mForm" id="form">
     <p class="pagedesc">We care about your feedback and always want to hear from you</p>
     name:
-    <input type="text" placeholder="">
+    <input type="text" name="name" class="input" placeholder="">
     email:
-    <input type="text" placeholder="">
+    <input type="text" name="email" class="input" placeholder="">
     tell us more:
-    <textarea rows="5" cols="30" ></textarea>
-    <button class="submit">submit</button>
+    <textarea rows="5" name="more" cols="30" ></textarea>
+    <button type="submit" class="submit">submit</button>
 </form>
+<script src="validate.js"></script>
 </body>
 </html>

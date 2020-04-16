@@ -239,7 +239,7 @@ header{
     .card{
         width: 90%;
         max-width: 100%;
-        max-height: 11rem;
+        max-height: 13rem;
     }
     .cardimg{
         width: 65%;
@@ -250,11 +250,17 @@ header{
         
         justify-content: space-between;
     }
+    .search{
+        border-radius: 1rem;
+        justify-content: center;
+    }
     .src{
         width: 80vw;
+        min-width: 80vw;
+        max-width: 80vw;
     }
     .body{
-        max-height: 88vh;
+        max-height: 92vh;
     }
     .srcright{
         margin-top: 1rem;

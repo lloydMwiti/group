@@ -1,6 +1,8 @@
 *{
     outline: none;
     font-family: sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 nav{
@@ -83,15 +85,21 @@ h1 {
 }
 @media (orientation:portrait){
     body{
+        padding-top: 125rem;
         display: flex;
         flex-direction: column;
         overflow-y: auto;
     }
     .cardhide{
-        min-height: 160vh;
+        min-height: 0vh;
+        height: 0;
     }
-    nav{
+    .navbtn{
         
+        width: 30vw;
+        min-width: 20vw;
+        padding: .5rem;
+        max-width: 30vw;
     }
     .title{
         display:none;
