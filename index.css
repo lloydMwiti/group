@@ -4,7 +4,7 @@
     font-family:sans-serif;
     user-select: none;
     box-sizing: border-box;
-    font-size: 1.05rem ;
+    /* font-size: 1.05rem important ; */
     border:solid rgba(0, 0,0,0);
     border:none;
     outline: none;
