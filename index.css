@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    user-select: none;
+    box-sizing: border-box;
+    /* font-size: 1.1rem !important; */
+    border:solid rgba(0, 0,0,0);
+    border:none;
+    outline: none;
+    color: #555555;
+    transition: .4s ease;
+}
+nav{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0rem;
+    height: 100%;
+    background:linear-gradient(90deg,rgba(57, 42, 61, 0.849),rgba(27, 19, 59, 0.849),rgba(15, 5, 66, 0.849));
+}
+.navleft{
+    font-size: 1.3rem;
+    color: white;
+    word-spacing: 1rem;
+}
+.contact{
+    background-color: rgba(53, 2, 83, 0.178);
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    padding: .3rem 1rem;
+}
+.contact:hover{
+    background-color: rgba(110, 92, 128, 0.575);
+    cursor: pointer;
+}
+.topdesc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+    border-radius: .5rem ;
+    border: none;
+    height: 13rem;
+    padding: 1.4rem ;
+    background: none;
+    color: rgb(212, 212, 212);
+    font-size: 1.4rem;
+    width: 31rem;
+
+}
+.navright>a{
+    background-color: rgba(255, 255, 255, 0.932);
+    text-decoration: none;
+    color: #555555;
+    height: 2.4rem;
+    padding: .4rem 1rem;
+    color: rgb(68, 67, 67);
+    font-size: 1.2rem;
+    border-radius: .3rem;
+}
+.navright>a:hover{
+    background-color: white;
+    color: #555555;
+    
+}
+.navlink{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    height: 2.4rem;
+    padding: .6rem 1rem;
+    color: rgb(87, 87, 87);
+    font-size: 1.1rem;
+    border-radius: 3rem;
+    box-shadow: 0rem .3rem .8rem -.4rem rgb(15, 0, 102);
+
+}
+.navlink:hover{
+    background-color: rgb(31, 31, 31);
+    color: #faf8f8;
+    
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+button{
+    cursor: pointer;
+    padding: .2rem .9rem;
+    border-radius: .2rem;
+    background-color: rgb(224, 224, 224);
+}
+button:hover{
+    background-color: rgba(0, 139, 252, 1);
+    color: white;
+}
+header{
+    background-color: rgb(0, 183, 255);
+    background-image: url(images/popcorn.jfif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 60vh;
+    max-height: 60rem;
+}
+.body{
+    border-radius: .5rem .5rem 0 0;
+    height: 93vh;
+    
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.srccontainer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.search{
+    border-radius: 3rem;
+    padding: .5rem 1rem;
+    background-color: white;
+    width: 86%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transform: translateY(-50%);
+}
+.src{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    margin: .3rem .1rem;
+    height: 3rem;
+    max-width: 25rem;
+    width:60vw;
+    min-width: 20rem;
+    border-radius: 2rem ;
+    background-color: white;
+    border: .12rem solid rgba(125, 133, 170, 0.603);
+    padding: 0rem 1.2rem;
+    box-shadow: 0rem .3rem .8rem -.4rem rgb(15, 0, 102);
+}
+.h2{
+    font-size: 1.7rem;
+    color: rgb(53, 53, 53);
+    padding: 0 .4rem;
+}
+.search > button{
+    font-size: 1.15rem;
+    color: white;
+    background-color: rgb(70, 67, 245);
+    border-radius:0 2rem 2rem 0 ;
+    cursor: pointer;
+    border: none;
+    padding: 0 .9rem;
+    height: 2.5rem;
+    box-shadow: .1rem .3rem .8rem -.4rem rgb(15, 0, 102);
+}
+.search > button:hover{
+    background-color: rgb(18, 14, 243);
+
+}
+.content{
+    padding-top: 4rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width:90%;
+    margin-top: -2rem;
+    padding: 2rem .5rem;
+    margin-bottom: 2rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.card{
+    display: flex;
+    margin: .4rem;
+    width:22%;
+    max-width: 24rem;
+    min-width: 15rem;
+    border-radius: .3rem;
+    min-height: 5rem;
+    
+    background-color:#f1f1f1;
+    color: rgb(19, 19, 19);
+    box-shadow: 0 .2rem .6rem -.4rem rgb(56, 56, 56) ;
+}
+.card:hover{
+    box-shadow: 0 0rem .6rem -.2rem rgb(42, 42, 43), 0 0rem 1rem -.2rem rgb(99, 126, 248) ;
+    background-color: white;
+}
+.cardimg{
+    object-position: center;
+    border-radius: .3rem 0 0 .3rem;
+    width: 50%;
+   object-fit: cover;
+}
+.card-content{
+    padding: .3rem .1rem;
+}
+.card-content > p{
+    color: #454545;
+    font-size: 1.05rem;
+    
+    margin: .25rem .4rem;
+} 
+.moviename{
+    font-size: 1.2rem;
+    color: blue;
+}
+.book{
+    margin-left: 10%;    
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+@media (orientation:portrait) {
+    .content{
+        width: 100%;
+    }
+    .card{
+        width: 90%;
+        max-width: 100%;
+        max-height: 11rem;
+    }
+    .cardimg{
+        width: 65%;
+    }
+    .search{
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: space-between;
+    }
+    .src{
+        width: 80vw;
+    }
+    .body{
+        max-height: 88vh;
+    }
+    .srcright{
+        margin-top: 1rem;
+    }
+    .h2{
+        display: none;
+        font-size: 0;
+        padding: 0;
+    }
+}
