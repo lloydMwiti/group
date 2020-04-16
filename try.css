@@ -2,6 +2,8 @@
     outline: none;
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
+    transition: .4s ease-in-out;
 }
 body{
     z-index: -2;
@@ -30,7 +32,7 @@ body{
 }
 nav{
     outline: none;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     font-family: sans-serif;
     padding: 0 1rem;
     display:flex;
@@ -39,9 +41,10 @@ nav{
     position: fixed;
     top: 0;
     width: 90vw;
-    height: 3rem;
+    height: 3.6rem;
     box-shadow: 0 0 .8rem -.4rem blue ;
     background-color: white;
+    border-radius: 0 0 .5rem .5rem;
 }
 
 .navbtn{
@@ -62,8 +65,8 @@ nav{
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
-    color: #353535;
-    font-size: 1.2rem;
+    color: #2b2a2a;
+    font-size: 1.5rem;
     box-shadow: 0 .2rem .8rem -.4rem blue;
     padding: .8rem 2rem ;
     border-radius: .4rem;
@@ -71,16 +74,16 @@ nav{
 }
 .form>input{
     border-radius: .3rem;
-    border: 2px solid rgb(124, 124, 124);
+    border: .1rem solid rgb(32, 42, 87);
     padding: .4rem 1rem;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: rgb(61, 61, 61);
 }
 textarea{
-    border: 2px solid grey;
+    border: .1rem solid rgb(25, 41, 75);
     border-radius: .3rem;
     padding: .3rem .7rem;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-family: sans-serif;
     color: rgb(65, 64, 64);
 }
@@ -94,13 +97,20 @@ input:focus,textarea:focus{
     border-radius: 2rem;
     width: 12rem;
     align-self: center;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    color: white;
     background-color: royalblue;
 }
+.submit:hover{
+    background-color: rgb(40, 83, 211);
+}
 .pagedesc{
+    text-transform: none;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
     max-width: 35rem;
     font-size: 2rem ;
-    color: rgb(21, 21, 66);
+    color: rgb(43, 43, 141);
 }
 @media (orientation:portrait){
     nav{
