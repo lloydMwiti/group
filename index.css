@@ -25,6 +25,20 @@ nav{
     color: white;
     word-spacing: 1rem;
 }
+.contact{
+    background-color: rgba(53, 2, 83, 0.178);
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    padding: .3rem 1rem;
+}
+.contact:hover{
+    background-color: rgba(110, 92, 128, 0.575);
+    cursor: pointer;
+}
 .topdesc{
     display: flex;
     align-items: center;
