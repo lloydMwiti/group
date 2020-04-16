@@ -4,7 +4,7 @@
     font-family:sans-serif;
     user-select: none;
     box-sizing: border-box;
-    font-size: 1.05rem !important;
+    font-size: 1.05rem ;
     border:solid rgba(0, 0,0,0);
     border:none;
     outline: none;
@@ -157,7 +157,7 @@ header{
     box-shadow: 0rem .3rem .8rem -.4rem rgb(15, 0, 102);
 }
 .h2{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: rgb(53, 53, 53);
     padding: 0 .4rem;
 }
