@@ -52,7 +52,7 @@ nav{
     padding: 1.4rem ;
     background: none;
     color: rgb(212, 212, 212);
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     width: 31rem;
 
 }
@@ -158,8 +158,8 @@ header{
     box-shadow: 0rem .3rem .8rem -.4rem rgb(15, 0, 102);
 }
 .h2{
-    font-size: 2rem;
-    color: rgb(53, 53, 53);
+    font-size: 1.8rem;
+    color: linear-gradient(45deg,#454545,#35334e,#251b4b);
     padding: 0 .4rem;
 }
 .search > button{
@@ -219,7 +219,7 @@ header{
 .moviename,.year,.cinema,.rating,.time{
     color: #454545;
     
-    font-size: 1rem;
+    font-size: 1.13rem;
     margin: .25rem .4rem;
 } 
 .moviename{
