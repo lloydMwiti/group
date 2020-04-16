@@ -4,7 +4,7 @@
     font-family:sans-serif;
     user-select: none;
     box-sizing: border-box;
-    font-size: 1rem !important;
+    font-size: 1.05rem !important;
     border:solid rgba(0, 0,0,0);
     border:none;
     outline: none;
@@ -28,7 +28,7 @@ nav{
 .contact{
     background-color: rgba(53, 2, 83, 0.178);
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: white;
     position: absolute;
     right: 1rem;
@@ -51,7 +51,7 @@ nav{
     padding: 1.4rem ;
     background: none;
     color: rgb(212, 212, 212);
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     width: 31rem;
 
 }
