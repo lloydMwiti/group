@@ -192,7 +192,7 @@ header{
     margin: .4rem;
     width:22%;
     max-width: 24rem;
-    min-width: 15rem;
+    min-width: 15.6rem;
     border-radius: .3rem;
     min-height: 5rem;
     
@@ -213,15 +213,17 @@ header{
 .card-content{
     padding: .3rem .1rem;
 }
-.card-content > p{
+.moviename,.year,.cinema,.rating,.time{
     color: #454545;
     font-size: 1.05rem;
     
     margin: .25rem .4rem;
 } 
 .moviename{
+    text-transform: capitalize;
     font-size: 1.2rem;
-    color: blue;
+    color: rgb(49, 49, 110);
+    text-shadow: 1px #7f7df8;
 }
 .book{
     margin-left: 10%;    

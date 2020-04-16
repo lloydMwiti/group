@@ -33,7 +33,7 @@ nav{
     text-decoration: none;
     height: 2.4rem;
     padding: 0.6rem 1rem;
-    border-radius: 2rem;
+    border-radius: .4rem;
     border: none;
     transition: .4s ease;
 }
