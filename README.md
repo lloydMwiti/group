@@ -1,6 +1,10 @@
-###What does this PR do
-###Description of task to be completed
+###Description of site
+it is a movie listings website
 ###How should this be manually tested
-###Anybackground context to provide
+https://lloydmwiti.github.io/popcorntv/.
 ###Screenshots
-###Questions
+
+###members
+Lloyd Mwiti (scram mastere)
+Maureen Chepkemoi
+Peter Kungu
